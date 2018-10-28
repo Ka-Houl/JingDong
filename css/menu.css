@@ -1,0 +1,369 @@
+
+.cover .nav-menu .box1 li{
+   height: 28px;
+   line-height: 28px;
+   padding-left: 14px;
+}
+.cover .nav-menu .box1 li:hover{ 
+	background-color: #666;
+	color: white;
+}
+.cover .nav-menu .box1 a{
+	font-size: 14px;
+    color: #626262;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.cover .nav-menu .box1 li:hover a{
+	color: white;
+}
+.cover .nav-menu .box1 li a:hover{
+	color: red;
+}
+.sec-kill-wrap{
+	float: left;
+	position: relative;
+	width:190px;
+	height: 275px;
+	background-color: #e83632;
+}
+.sec-kill-wrap a{
+    display: block;
+	width: 190PX;
+	height: 275px;
+}
+.sk{
+	position: absolute;
+	top: 215px;
+	left: 35px;
+}
+.sk-tt{
+	position: absolute;
+	top: 43px;
+	width: 190px;
+	height: 51px;
+	font-size: 34px;
+    text-align: center;
+    color: #fff;
+}
+.sk-en-tt{
+	position: absolute;
+	top: 94px;
+	height: 30px;
+	width: 190px;
+	text-align: center;
+    font-size: 20px;
+    color: #f19999;
+}
+.sk-icon{
+	position: absolute;
+	left: 85px;
+	top: 124px;
+	display: block;
+	width: 20px;
+	height: 33px;
+	background: url(../img/sprite_seckill.png) no-repeat -32.5px 0/52.5px 40px;
+}
+.sk-desc{
+	position: absolute;
+	top: 170px;
+	width: 100%;
+	height: 24px;
+	color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+.sec-kill-wrap .rec{
+	position: relative;
+	font-size: 20px;
+	color: #fff;
+	display: inline-block;
+	box-sizing: border-box;
+	width: 40px;
+	height: 40px;
+	margin-right: 5px;
+	margin-left: -5px;
+	background-color: #2f3430;
+	text-align: center;
+	line-height: 40px;
+	z-index: 5;
+}
+.rec::before{
+	content: "";
+	position: absolute;
+	top: 19px;
+	left:-10px;
+	background-color: #e83632;
+	height: 1px;
+	width: 50px;
+	z-index: -1;
+}
+.cover .goods-list{
+	position: relative;
+}
+.goods-item{
+	display: block;
+    display: absolute;
+	float: left;
+	width: 198px;
+	height: 275px;	
+	border-right: 1px solid #eee;
+	background-color: white;
+}
+.goods-item a{
+	display: block;
+}
+.goods-item img{
+	display: block;
+	position: relative;
+	top: 40px;
+	left: 25px;
+	margin: -1px 4px;
+	width: 140px;
+	height: 140px;
+}
+ .goods-item .goods-tt{
+ 	position: absolute;
+ 	top: 180px;
+ 	box-sizing: border-box;
+ 	width: 190px;
+ 	height: 30px;
+ 	padding: 0 15px 0 15px;
+	font-size: 12px;
+    color: #666;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.sk-price{
+	position: relative;
+    top:  85px;
+	left: 15px;
+}
+.sk-price span{
+	box-sizing: border-box;
+	width: 80px;
+	height: 20px;
+	border: 1px solid #f10215;
+	float: left;
+	text-align: center;
+}
+.sk-price .h1{
+	background-color: #f10215;
+	color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+.sk-price .price{
+	color: #999;
+	font-size: 12px;
+    text-decoration:line-through;
+}
+.goods-item .picture{
+	position: relative;
+	top: 10px;
+	left: 5px;
+	width: 180px;
+	height: 260px;
+}
+ .hd-tt{
+	font-size: 22px;
+	color: #222;
+	line-height: 60px;
+}
+.box-hd{
+	height: 60px;
+	padding: 0px 20px;
+}
+.box .arrow-icon{
+	display: inline-block;
+	position: relative;
+    width: 23px;
+    height: 23px;
+	background:url(../img/arrow-right.png) no-repeat 0px 0px/23px 23px;
+	top: 5px;
+}
+.box-hd .hd-subtt{
+	display: inline-block;
+	position: relative;
+	font-size: 14px;
+    color: #999;
+	top: -2px;
+}
+.tab-list .tab-item {
+	float: left;
+	width: 78px;
+	height: 34px;
+	line-height: 34px;
+	text-align: center;
+	background-color: #f7f7f7;
+}
+.tab-list .tab-item a{
+	font-size: 12px;
+    color: #666;
+}
+.cover .box .tab-list .active{
+	color: #f10215;
+}
+
+.slider-item{
+	box-sizing: border-box;
+	padding: 0 20px;
+}
+.slider-item img{
+    margin: 14px 0px;
+	width: 80px;
+	height: 80px;
+}
+.slider-item .ranking-lk .ranking-num{
+    display: inline-block;
+	width: 30px;
+    height: 40px;
+    font-size: 32px;
+    font-family: impact;
+}
+.slider-item .ranking-lk .ranking-title{
+	display: inline-block;
+	width: 200px;
+	height: 53px;
+	font-size: 12px;
+	color: #666;
+	overflow: hidden;
+	/*margin-bottom: 10px;*/
+}
+.box .img-box{
+	width: 350px;
+	padding: 0 20px;
+}
+.slider_item .daily_list{
+	position: relative;
+	margin: 25px 30px 0;
+}
+.slider_item .daily_list .daily_item_img{
+	width: 90px;
+}
+.slider_item .daily_list .daily_title{
+	margin: 12px auto 0;
+	text-align: center;
+}
+.slider_item .daily_list div{
+	height: 38px;
+	font-size: 14px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    margin-top: 15px;
+}
+.box .slider_item{
+	width:350px;
+	height: 355px;
+}
+.box .slider_item a{
+	position: relative;
+	display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #f7f7f7;
+    color: black;
+}
+.box .slider_item .lazyimg{
+	position: relative;
+	width: 350px;
+	height: 118px;
+	margin: -10px;
+    padding: 0 20px;
+}
+.box .slider_item .lazyimg::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: -8px;
+    right: 65px;
+    width: 16px;
+    height: 16px;
+
+    background-color: #fff;
+    border-radius: 50%;
+    z-index: 999
+}
+.box .slider_item .lazyimg::after{
+	content: "";
+    display: block;
+    position: absolute;
+    top: -8px;
+    right: 65px;
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    border-radius: 50%;
+    z-index: 999
+}
+.box .slider_item a.middle{
+    background-color: #eeefed;
+}
+.box .slider_item .lazyimg .coupon_img{
+	position: relative;
+	top: 10px;
+    width: 90px;
+	height: 90px;
+	margin: 10px;
+	border-radius: 50%;
+	overflow: hidden;
+	background-color: white;
+}
+.box .lazyimg{
+	margin-left: 20px;
+}
+.box .slider_item .lazyimg .coupon_img img{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	display: block;
+}
+.box .slider_item .lazyimg .coupon_more_inner{
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	width: 18px;
+	font-size: 12px;
+	line-height: 15px;
+}
+.box .slider_item .lazyimg .coupon_info{
+	position: absolute;
+	height: 120px;
+	top: 0;
+	left: 110px;
+	width: 168px;
+}
+.box .slider_item .lazyimg .coupon_info .mod_price{
+	position: absolute;
+	top: 10px;
+	height: 40px;
+}
+.box .slider_item .lazyimg .coupon_info .mod_price i{
+    font-style: normal;
+	font-size: 16px;
+	color: #e33333;
+	font-family: sans-serif;
+	text-decoration: none
+}
+.box .slider_item .lazyimg .coupon_info .mod_price span{
+	font-size: 34px;
+	font-weight: bold;
+	color: #e33333;
+}
+.box .slider_item .lazyimg .coupon_limit{
+	position: absolute;
+	top: 50px;
+	height: 24px;
+    left: 110px;
+    color: #b1b3b0;
+    font-size: 14px;
+}
+.box .slider_item .lazyimg .coupon_desc{
+	position: absolute;
+	top: 74px;
+	left: 110px;
+	height: 24px;
+	color: #767b77;
+	font-size: 14px;
+}

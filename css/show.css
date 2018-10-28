@@ -1,0 +1,70 @@
+.toolbar {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 999;
+    width: 0;
+    height: 100%;
+    border-right: 6px solid #7a6e6e;
+}
+
+.toolbar .tab-wrap{
+	position: absolute;
+	width: 35px;
+	right: -6px;
+}
+
+.toolbar .tab-wrap.main-tab{
+	top: 50%;
+	margin-top: -61px;
+}
+
+.toolbar .tab-wrap.bottom-tab{
+	bottom: 0;
+}
+
+.toolbar .tab-wrap .tab-item{
+	position: relative;
+	width: 35px;
+	height: 35px;
+	margin-bottom: 1px;
+	background-color: #7a6e6e;
+	border-radius: 3px 0 0 3px;
+	cursor: pointer;
+	text-align: center;
+	line-height: 35px;
+	font-size: 18px;
+}
+
+.toolbar .tab-wrap .tab-item:hover{
+	background-color: #f10215;
+}
+
+.toolbar .tab-wrap .tab-item:hover .tab-text{
+	background-color: #f10215;
+	width: 62px;
+	transition: width .5s;
+}
+
+.toolbar .tab-wrap .tab-item .fa{
+	color: #E4E3E3;
+}
+
+.toolbar .tab-wrap .tab-item .tab-text{
+	position: absolute;
+	display: block;
+	top: 0;
+	right: 32px;
+	width: 0px;
+	height: 35px;
+	background-color: #7a6e6e;
+	border-radius: 3px 0 0 3px;
+	font-size: 12px;
+	color: #fff;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.toolbar .tab-wrap .tab-item .tab-text em{
+	font-style:normal;
+}
